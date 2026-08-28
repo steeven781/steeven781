@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e3a8a&height=200&section=header&text=Steeven%20Medina&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Senior%20QA%20Engineer%20%26%20Automation%20Architect&descAlignY=60&descSize=18" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e3a8a&height=200&section=header&text=Steeven%20Medina&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Senior%20QA%20Engineer%20%26%20Automation%20Architect&descAlignY=60&descSize=18&v=2" width="100%"/>
 </p>
 
 <p align="center">
@@ -145,15 +145,15 @@ Site for a leadership training and consulting foundation, with a course catalog,
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=steeven781&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=steeven781&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=steeven781&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400&v=2" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=steeven781&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400&v=2" />
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=steeven781&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=steeven781&theme=tokyonight&hide_border=true&v=2" />
 </p>
 
 ---
 
 <p align="center"><i>📫 Reach me via my portfolio site above</i></p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,100:0f172a&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,100:0f172a&height=120&section=footer&v=2" width="100%"/>
