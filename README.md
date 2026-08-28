@@ -1,9 +1,11 @@
-<h1 align="center">Hi, I'm Steeven Medina 👋</h1>
-<p align="center">Senior QA Engineer &amp; Automation Architect — building full-stack SaaS products on the side 🇬🇹</p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e3a8a&height=200&section=header&text=Steeven%20Medina&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Senior%20QA%20Engineer%20%26%20Automation%20Architect&descAlignY=60&descSize=18" width="100%"/>
+</p>
 
 <p align="center">
-  <a href="https://steevencodeqa.netlify.app"><img src="https://img.shields.io/badge/Portfolio-steevencodeqa.netlify.app-black?style=flat-square&logo=netlify" /></a>
-  <a href="https://www.linkedin.com/in/steevenm7/"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" /></a>
+  <a href="https://steevencodeqa.netlify.app"><img src="https://img.shields.io/badge/Portfolio-steevencodeqa.netlify.app-0f172a?style=for-the-badge&logo=netlify&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/steevenm7/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:stevenmedina781@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
 ---
@@ -12,19 +14,15 @@
 
 Building **Numia** — a business intelligence SaaS for SMEs that connects to their existing databases and delivers AI-powered insights straight to WhatsApp. Handling product and architecture end to end, from data pipeline to the analysis layer.
 
-### 🛠️ Tech I work with
+### 🛠️ Tech Stack
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,fastapi,ts,react,nextjs,astro,supabase&theme=dark" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" />
 </p>
 
 ---
@@ -52,6 +50,24 @@ Designed so a distribution partner can show a business owner their own live data
 </details>
 
 <details>
+<summary><b>TestMan</b> — QA Test Management Platform &nbsp;·&nbsp; <i>In Development · AI-Assisted · 2026</i></summary>
+<br>
+
+**Problem**
+QA teams — including on my own projects, SureFitHub and TourApp — tracked test cases, test plans, and run results in spreadsheets: no reusable plans, no versioned run history per release or environment, no pass/fail dashboard, and every failed test meant manually copying details into a Jira ticket.
+
+**Contribution**
+Designed and built a multi-project test management platform solo: structured test cases with steps, platforms, tags and revision history; reusable test plans; versioned test runs that snapshot content at generation time (re-testing a fixed failure creates a new attempt instead of overwriting history); a pass/fail metrics dashboard; invitation-only auth with per-project, fail-closed access control and fixed roles (Admin/QA Lead/Tester/Viewer); AI-assisted test case drafting via the Gemini API; and a one-way Jira Cloud integration that creates defects from failed runs and publishes test cases as linked issues, without ever reading back or overwriting anything on the Jira side. Authoring is desktop-first; the run/execution flow is mobile-first, since that's where testers actually work.
+
+**Impact**
+Replaced spreadsheet-based test tracking on two live projects with one structured system — reusable plans, full run history per release, and pass/fail visibility without cross-referencing spreadsheets. AI-assisted drafting cuts the time to write new test cases, and the Jira integration removes the manual step of turning a failed test into a ticket.
+
+`Next.js 16` `React 19` `TypeScript` `Turso (libSQL)` `Drizzle ORM` `Clerk` `Gemini API` `Jira Cloud API` `Playwright`
+
+*Founder &amp; Solo Developer — end-to-end ownership*
+</details>
+
+<details>
 <summary><b>Integrity</b> — Multi-tenant Condo Management SaaS &nbsp;·&nbsp; <i>Production · 2026</i></summary>
 <br>
 
@@ -73,7 +89,7 @@ Replaced spreadsheet-based billing and phone-based coordination with a fully aud
 
 ---
 
-### 🧪 Testing &amp; Automation Architecture
+### 🧪 Testing &amp; Automation Architecture (Work)
 
 <details>
 <summary><b>Contract-First API + UI Test Framework</b> &nbsp;·&nbsp; <i>Work Project · 2025</i></summary>
@@ -93,22 +109,6 @@ Kept the test suite automatically aligned with a changing API contract, cut manu
 `Playwright` `TypeScript` `OpenAPI/Swagger codegen` `AWS Secrets Manager` `Allure`
 
 *Test Automation Architect*
-</details>
-
-<details>
-<summary><b>TestMan</b> &nbsp;·&nbsp; <i>[status] · [year]</i></summary>
-<br>
-
-**Problem**
-_[Add: what was manual, broken, or missing before this existed]_
-
-**Contribution**
-_[Add: what you built and your role]_
-
-**Impact**
-_[Add: the measurable result]_
-
-`[tech]` `[tech]` `[tech]`
 </details>
 
 ---
@@ -141,20 +141,19 @@ Site for a leadership training and consulting foundation, with a course catalog,
 |---|---|
 | [**steeven781.github.io**](https://github.com/steeven781/steeven781.github.io) | My personal portfolio site |
 | [**astro-cv-repo**](https://github.com/steeven781/astro-cv-repo) | Interactive CV/resume built with Astro |
-| [**price-calculator**](https://github.com/steeven781/price-calculator) | [Add a 1-line description: what does it calculate, who's it for] |
-| [**fel**](https://github.com/steeven781/fel) | [Add a 1-line description of what this project does] |
-| **Andares Activities Tracking** | Original single-condo activity tracker — evolved into Integrity |
 
-### 📊 GitHub stats
+### 📊 GitHub Stats
 
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=steeven781&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=steeven781&layout=compact&theme=tokyonight&hide_border=true" />
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=steeven781&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=steeven781&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" />
 </p>
-<p>
+<p align="center">
   <img src="https://streak-stats.demolab.com/?user=steeven781&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
 <p align="center"><i>📫 Reach me via my portfolio site above</i></p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,100:0f172a&height=120&section=footer" width="100%"/>
